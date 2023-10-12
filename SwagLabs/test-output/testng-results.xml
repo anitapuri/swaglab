@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T10:29:45 IST" name="Suite" finished-at="2023-10-12T10:30:57 IST" duration-ms="72893">
+    <groups>
+      <group name="sanity">
+        <method signature="ExecutionUsingTestNG.VerifyChekoutButtonFunctinality()[pri:1, instance:TestPackage.ExecutionUsingTestNG@67c27493]" name="VerifyChekoutButtonFunctinality" class="TestPackage.ExecutionUsingTestNG"/>
+        <method signature="ExecutionUsingTestNG.VerifyContinueButtonFunctionality()[pri:3, instance:TestPackage.ExecutionUsingTestNG@67c27493]" name="VerifyContinueButtonFunctionality" class="TestPackage.ExecutionUsingTestNG"/>
+        <method signature="ExecutionUsingTestNG.VerifyChekoutButtonFunctinality()[pri:1, instance:TestPackage.ExecutionUsingTestNG@443118b0]" name="VerifyChekoutButtonFunctinality" class="TestPackage.ExecutionUsingTestNG"/>
+        <method signature="ExecutionUsingTestNG.VerifyContinueButtonFunctionality()[pri:3, instance:TestPackage.ExecutionUsingTestNG@443118b0]" name="VerifyContinueButtonFunctionality" class="TestPackage.ExecutionUsingTestNG"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-10-12T10:29:45 IST" name="ChromeTest" finished-at="2023-10-12T10:30:21 IST" duration-ms="36124">
+      <class name="TestPackage.TestClass2">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestPackage.TestClass2@4f83df68]" started-at="2023-10-12T10:29:53 IST" name="LaunchBrowser" finished-at="2023-10-12T10:30:02 IST" duration-ms="8858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyBackToProductButton()[pri:0, instance:TestPackage.TestClass2@4f83df68]" started-at="2023-10-12T10:30:02 IST" name="VerifyBackToProductButton" finished-at="2023-10-12T10:30:07 IST" duration-ms="5331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBackToProductButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPackage.TestClass2@4f83df68]" started-at="2023-10-12T10:30:07 IST" name="closeBrowser" finished-at="2023-10-12T10:30:09 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPackage.TestClass2 -->
+      <class name="TestPackage.ExecutionUsingTestNG">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:29:45 IST" name="LaunchBrowser" finished-at="2023-10-12T10:29:53 IST" duration-ms="8406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:29:53 IST" name="creatingPOMObject" finished-at="2023-10-12T10:29:53 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingPOMObject -->
+        <test-method is-config="true" signature="OpenAddToCardPage()[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:29:53 IST" name="OpenAddToCardPage" finished-at="2023-10-12T10:30:05 IST" duration-ms="12216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddToCardPage -->
+        <test-method signature="VerifyChekoutButtonFunctinality()[pri:1, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:05 IST" name="VerifyChekoutButtonFunctinality" finished-at="2023-10-12T10:30:06 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyChekoutButtonFunctinality -->
+        <test-method is-config="true" signature="LogOutFromPage(org.testng.ITestResult)[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:06 IST" name="LogOutFromPage" finished-at="2023-10-12T10:30:11 IST" duration-ms="5431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyChekoutButtonFunctinality status=SUCCESS method=ExecutionUsingTestNG.VerifyChekoutButtonFunctinality()[pri:1, instance:TestPackage.ExecutionUsingTestNG@67c27493] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromPage -->
+        <test-method is-config="true" signature="OpenAddToCardPage()[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:11 IST" name="OpenAddToCardPage" finished-at="2023-10-12T10:30:13 IST" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddToCardPage -->
+        <test-method signature="VerifyRemoveButtonFunctionality()[pri:2, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:13 IST" name="VerifyRemoveButtonFunctionality" finished-at="2023-10-12T10:30:13 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemoveButtonFunctionality -->
+        <test-method is-config="true" signature="LogOutFromPage(org.testng.ITestResult)[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:13 IST" name="LogOutFromPage" finished-at="2023-10-12T10:30:19 IST" duration-ms="5297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyRemoveButtonFunctionality status=SUCCESS method=ExecutionUsingTestNG.VerifyRemoveButtonFunctionality()[pri:2, instance:TestPackage.ExecutionUsingTestNG@67c27493] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromPage -->
+        <test-method is-config="true" signature="OpenAddToCardPage()[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:19 IST" name="OpenAddToCardPage" finished-at="2023-10-12T10:30:20 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddToCardPage -->
+        <test-method signature="VerifyContinueButtonFunctionality()[pri:3, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:20 IST" name="VerifyContinueButtonFunctionality" finished-at="2023-10-12T10:30:21 IST" duration-ms="295" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.html20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.html20]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestPackage.ExecutionUsingTestNG.VerifyContinueButtonFunctionality(ExecutionUsingTestNG.java:122)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContinueButtonFunctionality -->
+        <test-method is-config="true" signature="LogOutFromPage(org.testng.ITestResult)[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:21 IST" name="LogOutFromPage" finished-at="2023-10-12T10:30:21 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyContinueButtonFunctionality status=FAILURE method=ExecutionUsingTestNG.VerifyContinueButtonFunctionality()[pri:3, instance:TestPackage.ExecutionUsingTestNG@67c27493] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+at Utils.Utility.CaptureScreenshot(Utility.java:49)
+at TestPackage.ExecutionUsingTestNG.LogOutFromPage(ExecutionUsingTestNG.java:138)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromPage -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:21 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1697086821155" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestPackage.ExecutionUsingTestNG@67c27493]" started-at="2023-10-12T10:30:21 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1697086821168" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- TestPackage.ExecutionUsingTestNG -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-10-12T10:30:21 IST" name="FirefoxTest" finished-at="2023-10-12T10:30:57 IST" duration-ms="36551">
+      <class name="TestPackage.TestClass2">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestPackage.TestClass2@765d7657]" started-at="2023-10-12T10:30:34 IST" name="LaunchBrowser" finished-at="2023-10-12T10:30:44 IST" duration-ms="10213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyBackToProductButton()[pri:0, instance:TestPackage.TestClass2@765d7657]" started-at="2023-10-12T10:30:44 IST" name="VerifyBackToProductButton" finished-at="2023-10-12T10:30:49 IST" duration-ms="4895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBackToProductButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPackage.TestClass2@765d7657]" started-at="2023-10-12T10:30:49 IST" name="closeBrowser" finished-at="2023-10-12T10:30:50 IST" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPackage.TestClass2 -->
+      <class name="TestPackage.ExecutionUsingTestNG">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:21 IST" name="LaunchBrowser" finished-at="2023-10-12T10:30:34 IST" duration-ms="13021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:34 IST" name="creatingPOMObject" finished-at="2023-10-12T10:30:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingPOMObject -->
+        <test-method is-config="true" signature="OpenAddToCardPage()[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:34 IST" name="OpenAddToCardPage" finished-at="2023-10-12T10:30:40 IST" duration-ms="6033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddToCardPage -->
+        <test-method signature="VerifyChekoutButtonFunctinality()[pri:1, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:40 IST" name="VerifyChekoutButtonFunctinality" finished-at="2023-10-12T10:30:40 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyChekoutButtonFunctinality -->
+        <test-method is-config="true" signature="LogOutFromPage(org.testng.ITestResult)[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:40 IST" name="LogOutFromPage" finished-at="2023-10-12T10:30:46 IST" duration-ms="5817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyChekoutButtonFunctinality status=SUCCESS method=ExecutionUsingTestNG.VerifyChekoutButtonFunctinality()[pri:1, instance:TestPackage.ExecutionUsingTestNG@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromPage -->
+        <test-method is-config="true" signature="OpenAddToCardPage()[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:46 IST" name="OpenAddToCardPage" finished-at="2023-10-12T10:30:49 IST" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddToCardPage -->
+        <test-method signature="VerifyRemoveButtonFunctionality()[pri:2, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:49 IST" name="VerifyRemoveButtonFunctionality" finished-at="2023-10-12T10:30:49 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemoveButtonFunctionality -->
+        <test-method is-config="true" signature="LogOutFromPage(org.testng.ITestResult)[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:49 IST" name="LogOutFromPage" finished-at="2023-10-12T10:30:55 IST" duration-ms="5543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyRemoveButtonFunctionality status=SUCCESS method=ExecutionUsingTestNG.VerifyRemoveButtonFunctionality()[pri:2, instance:TestPackage.ExecutionUsingTestNG@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromPage -->
+        <test-method is-config="true" signature="OpenAddToCardPage()[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:55 IST" name="OpenAddToCardPage" finished-at="2023-10-12T10:30:57 IST" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddToCardPage -->
+        <test-method signature="VerifyContinueButtonFunctionality()[pri:3, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:57 IST" name="VerifyContinueButtonFunctionality" finished-at="2023-10-12T10:30:57 IST" duration-ms="347" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.html20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.html20]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestPackage.ExecutionUsingTestNG.VerifyContinueButtonFunctionality(ExecutionUsingTestNG.java:122)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContinueButtonFunctionality -->
+        <test-method is-config="true" signature="LogOutFromPage(org.testng.ITestResult)[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:57 IST" name="LogOutFromPage" finished-at="2023-10-12T10:30:57 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyContinueButtonFunctionality status=FAILURE method=ExecutionUsingTestNG.VerifyContinueButtonFunctionality()[pri:3, instance:TestPackage.ExecutionUsingTestNG@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+at Utils.Utility.CaptureScreenshot(Utility.java:49)
+at TestPackage.ExecutionUsingTestNG.LogOutFromPage(ExecutionUsingTestNG.java:138)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromPage -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:57 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1697086857914" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestPackage.ExecutionUsingTestNG@443118b0]" started-at="2023-10-12T10:30:57 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1697086857925" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- TestPackage.ExecutionUsingTestNG -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
